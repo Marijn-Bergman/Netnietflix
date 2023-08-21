@@ -1,4 +1,4 @@
-Netflix clone made in React
+# Netflix clone made in React
 
 # Getting Started with Create React App
 
