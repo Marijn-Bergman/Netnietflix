@@ -1,0 +1,85 @@
+.show-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.show-poster {
+  border-radius: 8px;
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.show-details img {
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.show-info {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.show-info h2,
+.show-info h3,
+.show-info p {
+  margin: 10px 0;
+}
+
+.show-rating {
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo {
+  width: 220px;
+  height: 100px;
+  margin: 0 auto 0 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid white;
+  margin-bottom: 20px;
+}
+
+select {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.episode-card {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+img.episode-poster {
+  border-radius: 8px;
+  width: 500px;
+  height: 281px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.episode-info h4,
+.episode-info p {
+  margin: 0;
+}
